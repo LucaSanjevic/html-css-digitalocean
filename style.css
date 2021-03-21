@@ -81,17 +81,25 @@ h3 {
     margin-top: 30px;
 }
 
+.padding-top-30 {
+    padding-top: 30px;
+}
+
+.padding-top-130 {
+    padding-top: 130px;
+}
+
 .margin-bottom-50{
     margin-bottom: 50px;
 }
 
 .gray {
-    color: rgb(192, 187, 187);
+    color: rgb(172, 165, 165);
     font-weight: bold;
 }
 
 .bg-gray {
-background-color: rgb(206, 204, 204);
+background-color: rgb(243, 237, 237);
 }
 .height80 {
     height: 80px;
@@ -111,6 +119,10 @@ background-color: rgb(206, 204, 204);
     margin-left:0;
   }
 
+  .verticalLine {
+    border-left: thick solid rgb(172, 165, 165);
+  }
+
 .inline {
     display: inline-block;
 }
@@ -121,4 +133,26 @@ background-color: rgb(206, 204, 204);
 
 .block {
     display: block;
+}
+.inline {
+    display: inline-block;
+}
+.height300 {
+    height: 300px;
+}
+
+.verticalAlign {
+    vertical-align: middle;
+}
+
+@media all and (min-width: 1px) and (max-width:767px) {
+    none {
+        visibility: hidden;
+        display: none;
+    }
+}
+
+.li {
+            list-style-type: circle;
+            font-size: 20px;
 }
