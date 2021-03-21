@@ -1,0 +1,98 @@
+img {
+    height: 30px;
+}
+
+.no-border {
+    border: none;
+}
+.nav>li>a {
+    display: inline;
+}
+
+.border-blue {
+    border: 1px solid rgb(0, 102, 255);
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+.container {
+    padding-top: 20px;
+}
+
+.bg-immagine {
+    background-image: url(img/bg-banner-home.jpg);
+    background-size: contain;
+}
+
+h1 {
+    font-size: 55px;
+}
+
+.white {
+    color: white;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+.blue {
+    color: rgb(0, 102, 255);
+}
+
+.bg-blue-opacity {
+    background-color: rgba(5, 84, 231, 0.7);
+}
+.opacity {
+    opacity: 8;
+}
+
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.left > img {
+    height: 20px;
+    width: auto;
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
+.margin-top-10 {
+    margin-top: 10px;
+}
+
+.margin-top-30 {
+    margin-top: 30px;
+}
+
+.margin-bottom-50{
+    margin-bottom: 50px;
+}
+
+.bg-gray {
+    background-color: rgb(240, 234, 234);
+}
+
+.gray {
+    color: rgb(100, 100, 100);
+    font-weight: bold;
+}
+
+col
