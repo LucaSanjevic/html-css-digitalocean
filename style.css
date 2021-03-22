@@ -77,6 +77,10 @@ h3 {
     margin-top: 10px;
 }
 
+.margin-top-20 {
+    margin-top: 20px;
+}
+
 .margin-top-30 {
     margin-top: 30px;
 }
@@ -145,6 +149,9 @@ background-color: rgb(243, 237, 237);
     vertical-align: middle;
 }
 
+.verticalAlign2 {
+    vertical-align: top;
+}
 @media all and (min-width: 1px) and (max-width:767px) {
     none {
         visibility: hidden;
@@ -156,3 +163,43 @@ background-color: rgb(243, 237, 237);
             list-style-type: circle;
             font-size: 20px;
 }
+
+.bg-blue {
+    background-color: rgb(13, 42, 206);
+}
+
+hr {
+    padding: 0px;
+    margin: 0px; 
+}
+
+.p-padding .container .col-md-6 > p {
+    padding: 5px;
+    margin: 5px;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.padding1 {
+    padding-top: 30px;
+    padding-bottom: 30px
+}
+
+.bg-black {
+    background-color: black;
+}
+
+footer > .container img {
+    height: 40px;
+}
+
+.fixed {
+display: block;
+    width: 60px;
+    position: fixed;
+    right: 20px;
+    bottom: 60px;
+    background-color: blue;
+    }
