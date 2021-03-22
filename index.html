@@ -4,61 +4,69 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
    <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
 <body>
     <!-- BARRE DI NAVIGAZIONE -->
-        <header class="container">
+        <header class="container margin-bottom-20">
             <nav class="row center-block">
-                <div class="col-md-4 col-sm-4 col-xs-12">
-                            <img class="navbar-left" src="img/logo.png" alt="">
-                        </div>
-                       <div class="col-md-4 col-sm-4 col-xs-12">
-                            <ul class="nav navbar-nav">
-                                    <select name="" class="no-border">
-                                        <option value="Supporto">Products</option>
-                                    </select>
-                                    </li>
+                <div class="col-md-3 col-sm-4 col-xs-4">
+                    <img class="navbar-left" src="img/logo.png" alt="">
+                 </div>
 
-                                <li>
-                                <a class="no-padding" href="#">Customers</a>
-                                </li>
+                <div class="col-md-5 hidden-sm hidden-xs">
+                    <ul class="nav navbar-nav">
+                        <select name="" class="no-border">
+                            <option value="Supporto">Products</option>
+                        </select>
+                        </li>
+
+                        <li>
+                            <a class="no-padding black" href="#">Customers</a>
+                        </li>
          
-                                <li>
-                                <select name="" class="no-border">
-                                    <option value="Supporto">Community</option>
-                                </select>
-                                </li>
+                        <li>
+                            <select name="" class="no-border">
+                                <option value="Supporto">Community</option>
+                            </select>
+                        </li>
          
-                                <li>
-                                    <a href="#">Pricing</a>
-                                </li>
-                             </ul>
-                            </div>
-                            <div class="col-md-4 col-sm-4 col-xs-12">
-                         <ul class="nav navbar-nav navbar-right">
-                           <li>
-                           <a href="#">Docs</a>
-                           </li>
+                         <li>
+                            <a class="black" href="#">Pricing</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 hidden-sm hidden-xs">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                           <a class="black" href="#">Docs</a>
+                        </li>
     
-                           <li>
-                           <select name="" class="no-border">
+                         <li>
+                            <select name="" class="no-border">
                                <option value="Supporto">Support</option>
                            </select>
-                           </li>
+                        </li>
 
-                           <li>
-                            <a href="#">Login</a>
-                            </li>
+                        <li>
+                            <a class="black" href="#">Login</a>
+                        </li>
 
-                           <li>
-                            <button class="verticalAlign2 btn btn-default blue border-blue"> Sign Up</button>
-                           </li>
-                         </ul>
-                        </div>
-                     </div>
+                        <li>
+                            <button class="margin2-top-5 btn btn-default blue border-blue"> Sign Up</button>
+                        </li>
+                    </ul>
+                </div>
+
+<div class="col-sm-2 col-xs-2 right hidden-md hidden-lg">
+    <div class="menu"></div>
+<div class="menu"></div>
+<div class="menu"></div>
+</div>
     </nav>
         </header>
 
@@ -93,7 +101,7 @@
         </div>
     </div>
 </section>
-<section class="container padding-top-30 text-center bg-gray">
+<section class="container padding-top-30 padding-bottom-20 text-center bg-gray">
     <p class="gray text-center col-md-12 col-sm-12 col-xs-12">INNOVATIVE BUSINESSES TRUST DIGITALOCEAN</p>
     <div class="row no-pad">
         <div class="col-xs-12 col-md-4 col-sm-4 padding-0">
@@ -163,7 +171,7 @@
     </section>
 
     <section class="bg-gray">
-    <div class="container text-center">
+    <div class="container text-center padding-bottom-20">
 <h2>Designed for developers</h2>
 <p class="larger gray">Build more and spend less time managing your infrastructure with our easy-to-use control
     panel and API
@@ -188,9 +196,12 @@
 </div>
 <p><b> Create compute servers in 55 seconds or less </b> </p>
 
-<ul class="listStyle">
-<li> <span class="blue border-blue height40"></span></li>
-</ul>
+<div class="pallini">
+<span class="dot"></span>
+<span class="dot"></span>
+<span class="dot"></span>
+<span class="dot"></span>
+</div>
 
     </div>
     </section>
@@ -443,7 +454,7 @@
 
 
 <section class="bg-gray">
-    <div class="container text-center">
+    <div class="container text-center  padding-bottom-20">
 <h2>Development love DigitalOcean</h2>
 
 <div class="text-center">
@@ -465,7 +476,11 @@
     <div class="inline verticalAlign">
         <h1 class="hidden-xs">></h1>
 </div>
-
+<div class="pallini margin-top-20">
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    </div>
 </div>
 
 </div>
@@ -479,13 +494,19 @@
 <footer class="bg-black">
     <div class="container">
 
-        <div class="col-md-4 col-ms-12 col-xs-12 white">
-            <img src="img/logo-small.svg" alt="">
-
+        <div class="col-md-4 col-ms-12 col-xs-12 opacity">
+            <img src="img/logo-small.svg" alt=""> <br>
+           <p class="padding-top-5"><b>&copy 2018 DigitalOcean, LLC. All rights reserved.</b></p>
+        <p>Proudly made in NY</p>
+        <i class="fa fa-twitter padding5 font25" aria-hidden="true"></i>
+        <i class="fa fa-facebook-official padding5 font25" aria-hidden="true"></i>
+        <i class="fa fa-instagram padding5 font25" aria-hidden="true"></i>
+        <i class="fa fa-youtube-play padding5 font25" aria-hidden="true"></i>
+        <i class="fa fa-linkedin padding5 font25" aria-hidden="true"></i>
         </div>
 
 <div class="col-md-2 col-sm-6 col-xs-12 white">
-    <p><b>Company</b></p>
+    <h4><b>Company</b></h4>
     <p>About</p>
     <p>Leadership</p>
     <p>Link</p>
@@ -498,7 +519,7 @@
     <p>Legal & Security</p>
 </div>
 <div class="col-md-2 col-sm-6 col-xs-12 white">
-    <p><b>Products</b></p>
+    <h4><b>Products</b></h4>
     <p>Droplets</p>
     <p>Spaces</p>
     <p>Kubenetes</p>
@@ -512,7 +533,7 @@
     <p>Release Notes</p>
 </div>
 <div class="col-md-2 col-sm-6 col-xs-12 white">
-    <p><b>Community</b></p>
+    <h4><b>Community</b></h4>
     <p>Tutorial</p>
     <p>Meetups</p>
     <p>Q&A</p>
@@ -525,7 +546,7 @@
     <p>Open Source</p>
 </div>
 <div class="col-md-2 col-sm-6 col-xs-12 white">
-    <p><b>Support</b></p>
+    <h4><b>Support</b></h4>
     <p>Contact Support</p>
     <p>FAQ</p>
     <p>Network Status</p>
@@ -534,6 +555,11 @@
 
     </div>
 </footer>
-<img class="fixed" src="img/shark.png" alt="">
+    <div class="fixed ">
+    <p class="bg-white inline padding2">Can i help answer any questions you have <br> about DigitalOcean?</p>
+<span class="triangle-right inline margin-left-10"></span>
+        <img class="squalo margin-bottom-20 inline" src="img/shark.png" alt="">
+</div>
+</div>
 </body>
 </html>
