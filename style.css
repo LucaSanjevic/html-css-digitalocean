@@ -158,11 +158,17 @@ background-color: rgb(243, 237, 237);
 
 .verticalAlign {
     vertical-align: middle;
+    font-size: 50px;
 }
 
 .verticalAlign2 {
     vertical-align: top;
 }
+
+.verticalAlign3 {
+    vertical-align: middle;
+}
+
 @media all and (min-width: 1px) and (max-width:767px) {
     none {
         visibility: hidden;
@@ -269,4 +275,14 @@ footer > .container img {
 
       .black {
           color: black;
+      }
+
+      .cerchietto {
+          background-color: red;
+          width: 20px;
+          border-radius: 50%;
+          border: 3px solid white;
+          position: fixed;
+          bottom: 100px;
+          right: 40px;
       }
