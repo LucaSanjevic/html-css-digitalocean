@@ -77,7 +77,17 @@ h3 {
 .underlined {
     text-decoration: underline;
 }
-
+.fa-chevron-right {
+    font-size: 30px;
+    color: black;
+}
+.fa-chevron-left {
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.margin-top-5 {
+    margin-top: 5px;
+}
 .margin-top-10 {
     margin-top: 10px;
 }
@@ -90,6 +100,14 @@ h3 {
 
 .margin-top-30 {
     margin-top: 30px;
+}
+
+.margin-left-40 {
+    margin-left: 17px;
+}
+
+.margin-top-50 {
+    margin-top: 50px;
 }
 
 .padding-top-30 {
@@ -108,13 +126,23 @@ h3 {
 .margin-bottom-20 {
     margin-bottom: 20px;
 }
+.padding-bottom-50 {
+    padding-bottom: 50px;
+}
+.padding-left-10 {
+padding-left: 10px;
+}
+
+.padding-right-10 {
+    padding-right: 10px;
+}
 .gray {
     color: rgb(172, 165, 165);
     font-weight: bold;
 }
 
 .bg-gray {
-background-color: rgb(243, 237, 237);
+background-color: rgb(241, 239, 239);
 }
 .height80 {
     height: 80px;
@@ -135,11 +163,15 @@ background-color: rgb(243, 237, 237);
   }
 
   .verticalLine {
-    border-left: thick solid rgb(172, 165, 165);
+    border-left: 1px solid rgb(172, 165, 165);
   }
 
 .inline {
     display: inline-block;
+}
+
+.height30 {
+height: 30px;
 }
 
 .height40 {
@@ -188,6 +220,7 @@ background-color: rgb(243, 237, 237);
 hr {
     padding: 0px;
     margin: 0px; 
+    margin-bottom: 5px;
 }
 
 .p-padding .container .col-md-6 > p {
@@ -286,3 +319,38 @@ footer > .container img {
           bottom: 100px;
           right: 40px;
       }
+
+      hr {
+          padding-bottom: 3px;
+      }
+
+      @media(max-width:767px) {
+          .height300 {
+              padding-top: 100px;
+          }
+          .pallini1 {
+              padding-top: 50px;
+              padding-bottom: 50px;;
+          }
+          .seconda-parte {
+              padding-top: 40px;
+          }
+          .height40 {
+            margin-top: -30px;
+          }
+          .seconda-sezione {
+            margin-top: 20px;
+        }
+      }
+      @media (min-width:768px) and (max-width: 992px) {
+      .marginms {
+        margin-top: 50px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+    .seconda-sezione {
+        margin-top: 20px;
+    }
+}
